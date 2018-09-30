@@ -1,0 +1,36 @@
+{
+    "application": {
+        "id": "",
+        "title": "Ztest_odata_cds_gateway.Ztest_odata_cds_gateway",
+        "description": "test CDS Gateway",
+        "type": "SAP_UI5_Component",
+        "componentUrl": "/",
+        "appUrl": "#Ztest_odata_cds_gateway-Display",
+        "navigationComponentName": "Ztest_odata_cds_gateway",
+        "intentSemanticObject": "Ztest_odata_cds_gateway",
+        "intentAction": "Display",
+        "html5ApplicationName": "ztestodatacdsgateway",
+        "HCPParentApplicationName": ""
+    },
+    "assignment": {
+        "groups": [
+            "e8acc836-0257-44af-8e1b-5ddc4c8b5ef2"
+        ],
+        "contentPackages": [
+            "a6289dbd-faa4-48e0-9efb-3a148386b251"
+        ],
+        "categories": []
+    },
+    "tile": {
+        "type": "DynamicTile",
+        "title": "Scarr",
+        "subtitle": "Test CDS Gatway",
+        "searchKeywords": "Scarr,Test CDS Gatway",
+        "displayIconUrl": "sap-icon://list",
+        "displayInfoText": "",
+        "size": "1x1",
+        "serviceURL": "/sap/fiori/ztestodatacdsgateway/sap/opu/odata/sap/ZDDLSQLVIEW_CDS/zddlsqlview/$count",
+        "refreshInterval": 10,
+        "displayNumberUnit": "zddlsqlviewType"
+    }
+}
